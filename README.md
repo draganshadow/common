@@ -1,4 +1,4 @@
 common
 ======
 
-Common base elements
+Common components for ZF2 + Doctrine modules

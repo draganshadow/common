@@ -1,0 +1,24 @@
+{
+    "name": "netsyos/common",
+    "description": "Common components for ZF2 + Doctrine modules",
+    "license": "GPL-3.0",
+    "keywords": ["zf2", "doctrine"],
+    "homepage": "https://github.com/draganshadow/common",
+    "authors": [
+        {
+            "name": "draganshadow",
+            "email": "draganshdow@netsyos.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Netsyos\\Common": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "doctrine/doctrine-orm-module": "0.8.*"
+    }
+}
