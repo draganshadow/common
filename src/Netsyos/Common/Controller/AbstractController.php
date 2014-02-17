@@ -58,6 +58,6 @@ class AbstractController extends AbstractActionController implements EntityManag
      */
     public function getRepository($entity, $namespace = false)
     {
-        return $this->em->getRepository(($namespace ? $namespace : $this->baseNameSpace) . $entity);
+        return $this->entityManager->getRepository(($namespace ? $namespace : $this->baseNameSpace) . $entity);
     }
 }
