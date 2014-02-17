@@ -4,7 +4,7 @@ namespace Netsyos\Common\Factory;
 use Zend\ServiceManager\AbstractFactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 
-class ServiceAbstractFactory implements AbstractFactoryInterface
+abstract class ServiceAbstractFactory implements AbstractFactoryInterface
 {
     /**
      * @return string
