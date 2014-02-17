@@ -1,5 +1,5 @@
 <?php
-namespace Netsyos\Entity;
+namespace Netsyos\Common\Entity;
 
 use Zend\Stdlib\ArraySerializableInterface;
 

@@ -1,5 +1,5 @@
 <?php
-namespace Netsyos\Controller;
+namespace Netsyos\Common\Controller;
 
 use Doctrine\ORM\Query;
 use Netsyos\Common\Initializer\EntityManagerAwareInterface;
