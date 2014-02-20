@@ -23,7 +23,7 @@ interface EntityManagerAwareInterface
      * @param string $namespace
      * @return mixed
      */
-    public function setBaseNameSpace($namespace);
+    public function setBaseNameSpace($namespace = false);
 
     /**
      * @param $entity

@@ -21,9 +21,16 @@ class AbstractController extends AbstractActionController implements EntityManag
      * @param string $baseNameSpace
      * @return mixed|void
      */
-    public function setBaseNameSpace($baseNameSpace)
+    public function setBaseNameSpace($baseNameSpace = false)
     {
-        $this->baseNameSpace = $baseNameSpace;
+        if (!$baseNameSpace) {
+            $class = explode('\\', get_class($this));
+            unset($class[count($class) - 1]);
+            unset($class[count($class) - 1]);
+            $this->baseNameSpace = implode('\\', $class) . '\Entity\\';
+        } else {
+            $this->baseNameSpace = $baseNameSpace;
+        }
     }
 
     /**
