@@ -1,6 +1,6 @@
 {
     "name": "netsyos/common",
-    "description": "Common components for ZF2 + Doctrine modules",
+    "description": "Common components for ZF2 modules",
     "license": "GPL-3.0",
     "keywords": ["zf2", "doctrine"],
     "homepage": "https://github.com/draganshadow/common",
