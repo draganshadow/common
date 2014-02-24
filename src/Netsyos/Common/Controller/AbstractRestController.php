@@ -5,7 +5,7 @@ use Doctrine\ORM\Query;
 use Netsyos\Common\Initializer\EntityManagerAwareInterface;
 use Zend\Mvc\Controller\AbstractRestfulController;
 
-class AbstractController extends AbstractRestfulController implements EntityManagerAwareInterface
+class AbstractRestController extends AbstractRestfulController implements EntityManagerAwareInterface
 {
     /**
      * @var string
